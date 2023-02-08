@@ -1,0 +1,161 @@
+body{
+    background-image: url("equalizer-landing-page/equalizer-landing-page/starter-code/assets/bg-main-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position: top -150px right -150px;
+    font-family: 'IBM Plex Sans', sans-serif;  
+    width: 100%; 
+}
+
+header{
+    padding: 40px 24px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    margin-top: 300px;
+    padding: 80px 24px;
+}
+
+img{
+    width: 209px;
+    height: 430px;
+    position: absolute;
+    top: -98px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.black-div{
+    width: 375px;
+    height: 600px;
+    background-color: #191826;
+    border-radius: 12px;
+    position: relative;
+    background-image: url("equalizer-landing-page/equalizer-landing-page/starter-code/assets/bg-pattern-2.svg");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: 280px 420px;
+    margin-top: 166px;
+}
+
+.orange-div{
+    background-color: #FA7453;
+    border-radius: 12px;
+    top: 380px;
+    left: 0;
+    position: absolute;
+    padding: 48px 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orange-div h1{
+    margin: 0 0 12px 0;
+    color: #FCFAF9;
+}
+
+.orange-div p{
+    color: #FCFAF9;
+    margin-bottom: 36px;
+}
+
+#apple{
+    width: 296px;
+    height: 61px;
+    background-color: #191826;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FCFAF9;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    text-align: center;
+    border:none;
+    margin: 32px 0 16px 0;
+}
+
+#apple-div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#android{
+    width: 296px;
+    height: 61px;
+    background-color: #FCFAF9;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #191826;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    text-align: center;
+    border:none;
+}
+
+#android-div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+h1{
+    color: #191826;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    letter-spacing: -0.45px;
+    margin: 20px 24px;
+}
+
+h2{
+    color: #FCFAF9;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    gap: 16px
+}
+
+span{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+
+.p{
+    color: #191826;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.top{
+    margin: 0 24px;
+}
+
+.last{
+    margin: 32px 0 64px 0;
+}
+
+.icon-container{
+    display: flex;
+    gap: 20px;
+}
+
