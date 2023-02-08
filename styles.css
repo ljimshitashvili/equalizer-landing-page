@@ -92,10 +92,13 @@ img{
     margin: 32px 0 16px 0;
 }
 
-#apple-div{
+#apple-div, #android-div{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
+    width: 100%;
+    height: 100%;
 }
 
 #android{
@@ -115,10 +118,8 @@ img{
     border:none;
 }
 
-#android-div{
-    display: flex;
-    align-items: center;
-    gap: 8px;
+a, a:hover, a:link, a:active, a:visited{
+    text-decoration: none;
 }
 
 h2{
@@ -287,7 +288,7 @@ footer{
     }
 
     .orange-div{
-        width: 446px;
+        width: 338px;
         top: 90px;
         left: unset;
         right: 95px;
@@ -323,4 +324,19 @@ footer{
     #logo{
         margin-bottom: 32px;
     }
+
+    /* desktop active */
+
+    #apple:hover{
+        background-color: #66E2DC;
+    }
+
+    #android:hover{
+        background-color: #FFB964;
+    }
+
+    .icon-container svg:hover path{
+        fill: #FA7453;
+    }
+
 }
